@@ -1,0 +1,44 @@
+ @charset "gb2312";
+/* »¯»ÃµÆÆ¬ */
+.focus{overflow:hidden; zoom:1; min-width:950px; background:#5c5c5c;z-index:0;}
+.focus_body{background:#5c5c5c;z-index:0;}
+.scroll{ width:950px; margin:0 auto; position:relative; padding-top:16px;z-index:0;}
+.scroll .t, .arr_left, .arr_right,.scroll_txt{position:absolute;}
+.arr_left{ width:45px; height:70px; cursor:pointer; line-height:400px; overflow:hidden; left:0; top:135px;background:url("../images/arrow_left.png") no-repeat; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale, src='../images/arrow_left.png');_background:none;}
+.arr_right{ width:45px; height:70px; cursor:pointer; line-height:400px; overflow:hidden; right:0; top:135px;background:url("../images/arrow_right.png") no-repeat; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale, src='../images/arrow_right.png');_background:none;z-index:100;}
+.scroll .box{float:left; width:944px;}
+.scroll_cont{ border:solid 3px #fff; background:#fff; width:944px; height:342px;z-index:0;}
+.numList{ vertical-align:middle; text-align:center; padding:8px; }
+.numList span{display: inline-block; width:25px; height:0; padding-top:8px; border:solid 1px #5e5e5e; margin-right:5px; background:#0f0f0f; cursor:pointer; line-height:0; font-size:0}
+.numList span.selected{border:solid 1px #333; background:#fff}
+.scroll_txt{ left:660px; top:18px;}
+.scroll_txt .txtbg{ position:absolute;width:287px; height:343px;left:0; top:0;background:white;/*background:url("../images/txtbg.png") no-repeat; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale, src='../images/txtbg.png');_background:none;*/}
+.scroll_txt .txtcontent{ position:absolute;left:34px; top:50px; color:#20202f; width:210px}
+.scroll_txt .txtcontent h2{ font-size:20px; color:#20202f; font-family:ºÚÌå; line-height:24px; padding:0 0 5px;}
+.scroll_txt .txtcontent p{ padding:5px 0;}
+.scroll_txt .txtcontent p span{ color:#2d84be;}
+.scroll_txt .txtcontent .btn{ text-align:center; padding:10px}
+.scroll_txt .txtcontent .btn a{ background:url(../images/btgo.png) no-repeat;color:white; width:132px; height:35px; display:block; margin:0 auto; cursor:pointer; line-height:35px; overflow:hidden}
+.scroll_info {display:none;}
+.txtcontent h2 a { color:#20202f;}
+.playList{ float:right;width:308px; overflow:hidden;}
+.playList li{ width:290px; height:80px; padding-left:18px; background:url("../images/txtbg.png") no-repeat}
+.playList li.active{ background-position:0 -80px}
+.playList li h3{ color:#333; font-size:16px; font-family:"Î¢ÈíÑÅºÚ", "ºÚÌå"; line-height:30px;}
+.playList li a, .playList li a:visited, .playList li a:hover{color:#333}
+.playList li p{ color:#898989; padding-right:9px}
+.playList li.active a, .playList li.active a:visited, .playList li.active a:hover, .playList li.active p{ color:#fff;}
+
+/* nav_menu */
+.nav_menu{height:60px;background-color: #e7ab44;z-index:10;}
+.navs{width:1006px;height:60px;position:relative;margin:0 auto;z-index:10;}
+.navs .list ul li{float:left;width: 100px;height: 60px;line-height: 60px;}
+.navs .list ul li h2 { font-weight: bold; font-size: 16px; text-align: center; padding: 0px; margin: 0px;font-family: 'Microsoft YaHei', 'Î¢ÈíÑÅºÚ', Arial, Lucida Grande, Tahoma, sans-serif; }
+.navs .list ul li a{display: block; width: 100%; height: 100%;font-size: 14px;text-align: center;color: #fff;font-weight: bold;}
+.navs .list ul li a:hover{display: block;color:#000;background:#fff;float:left;}
+.navs .list .now a{color:#fff;}
+.navs .list ul .fr {float: right;width: 190px;background: url(../images/reg.png) 0 0 no-repeat;text-indent: 4.5em;}
+.navs .list ul .fr a:hover {background: url(../images/reg.png) 0 0 no-repeat;color:#fff;}
+.navs .box{position:absolute;left:0px;top:60px;width:1006px;background:#FFF;overflow:hidden;height:0;filter:alpha(opacity=0);opacity:0;z-index:10;}
+.navs .cont{position:relative;padding:10px 0px 0px 0px;z-index:10;}
+/* sublist */

@@ -1,0 +1,535 @@
+html, body, form, img, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, b, u, i, p, em, td, th, input, textarea, label, select, iframe{
+	font-family:'Microsoft Yahei',"宋体","Arial Narrow",HELVETICA;
+	font-size:12px;
+	color:#333;
+	padding:0;
+	margin:0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color:#666;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	margin: 0;
+	background: #F7F7F5;
+}
+.clear{
+	clear: both;
+}
+img{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+/*----------------------------顶部----------------------------*/
+.header{
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	background-color: #2a3c51;
+}
+.head{
+	width: 1006px;
+	height: 25px;
+	margin: 0 auto;
+	color: #50729a;
+	overflow: hidden;
+}
+.header .head span{
+	float: right;
+	display: inline;
+}
+.head a{
+	color: #fff;
+	margin: 0 5px;
+	font-size: 13px;
+}
+
+/*--------------------------------logo--------------------*/
+.banner{
+	width: 100%;
+	height: 127px;
+	background-color: #FFBF50;
+}
+.ban{
+	width: 1006px;
+	height: 127px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.ban a img{
+	float: left;
+	display: inline;
+}
+
+.ban .phone{
+	float: right;
+	display: inline;
+	width: 200px;
+	overflow: hidden;
+	white-space: nowrap;
+	color: #FFF;
+	padding-top: 30px;
+	text-align: center;
+}
+.ban .phone p{
+	font-size: 16px;
+	font-family: arial;
+	font-weight: bold;
+	color: #fff;
+	margin-top: 20px;
+}
+/*---------------------------------导航栏-----------------------------*/
+.nav_menu{
+	height: 60px;
+	background-color: #E7AB44;
+	z-index: 10;
+}
+.navs{
+	width: 1006px;
+	height: 60px;
+	position: relative;
+	margin: 0 auto;
+	z-index: 10;
+}
+.navs .list ul li{
+	float: left;
+	width: 100px;
+	height: 60px;
+	line-height: 60px;
+}
+.navs .list ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
+.navs .list ul li h2{
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+}
+.navs .list ul .fr{
+	float: right;
+	width: 190px;
+	background: url(../images/reg.png) no-repeat;
+	text-indent: 4.5em;
+}
+.navs .list ul .fr a{
+	font-size: 16px;
+	font-weight: normal;
+}
+.list ul li:hover{
+	background: #fff;
+	
+}
+.list ul li:hover h2{
+	color: #000;
+}
+/*------------------------轮播图--------------------------------*/
+.focus{
+	overflow: hidden;
+	zoom: 1;
+	min-width: 950px;
+	background: #5C5C5C;
+	z-index: 0;
+}
+.focus_body{
+	background: #5c5c5c;
+	z-index: 0;
+}
+.scroll{
+	width: 950px;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 16px;
+	z-index: 0;
+}
+.arr_left{
+	width: 45px;
+	height: 70px;
+	line-height: 400px;
+	overflow: hidden;
+	position: absolute;
+	top: 135px;
+	left: 0;
+	background: url(../images/arrow_left.png) no-repeat;
+	z-index: 100;
+}
+.arr_right{
+	width: 45px;
+	height: 70px;
+	line-height: 400px;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	top: 135px;
+	background: url(../images/arrow_right.png) no-repeat;
+	z-index: 100;
+}
+.scroll_cont{
+	width: 944px;
+	overflow: hidden;
+	border: 3px solid #fff;
+	height: 342px;
+	z-index: 0;
+}
+.scroll_cont1{
+	width: 655px;
+	height: 350px;
+	position: relative;
+	overflow: hidden;
+}
+.scroll_cont2{
+	width:3930px;
+	height: 350px;
+}
+.box{
+	float: left;
+}
+/*----------------------------------轮播图右边的文字-------------------*/
+.scroll_txt{
+	position: absolute;
+	left: 660px;
+	top: 18px;
+}
+.scroll_txt .txtbg{
+	position: absolute;
+	width: 287px;
+	height: 343px;
+	left: 0;
+	top: 0;
+	background: white;
+}
+.scroll_txt .txtcontent{
+	position: absolute;
+	left: 34px;
+	top: 50px;
+	color: #20202F;
+	width: 210px;
+}
+.scroll_txt .txtcontent h2{
+	font-size: 20px;
+	color: #20202F;
+	font-family: 黑体;
+	line-height: 24px;
+	padding: 0 0 5px;
+}
+.txtcontent h2 a{
+	color: #20202f;
+	font-weight: normal;
+}
+.scroll_txt .txtcontent p{
+	padding: 5px 0;
+}
+.scroll_txt .txtcontent .btn{
+	text-align: center;
+	padding: 10px;
+}
+.scroll_txt .txtcontent .btn a{
+	background: url(../images/btgo.png) no-repeat;
+	color: white;
+	width: 132px;
+	height: 35px;
+	display: block;
+	margin: 0 auto;
+	line-height: 35px;
+	overflow: hidden;
+}
+
+
+
+/*-------------------------------图片下面的小格格---------------------*/
+.numlist{
+	vertical-align: middle;
+	text-align: center;
+	padding: 8px;
+}
+.numlist span{
+	display: inline-block;
+	width: 25px;
+	height: 0;
+	padding-top: 8px;
+	border: 1px solid #5E5E5E;
+	margin-right: 5px;
+	background: #0F0F0F;
+	line-height: 0;
+	font-size: 0;
+}
+/*-------------------------------长长的图片部分--------------------------*/
+.wrap{
+	margin: 0 auto;
+	width: 90%;
+	max-width: 1006px;
+}
+.home_main{
+	margin: 15px auto;
+	width: 1006px;
+}
+.bbb img{
+	float: left;
+}
+.mb20{
+	margin-bottom: 20px;
+	
+}
+.mb20 span{
+	border: none;
+	margin: 0;
+}
+.column span{
+	display: block;
+	margin-bottom: 8px;
+	text-align: center;
+}
+.bobl{
+	border-bottom: 1px solid red;
+	padding-bottom: 30px;
+}
+.aaa img{
+	float: left;
+}
+/*------------------------美术高考培训---------------------------*/
+.column1{
+	background: none repeat scroll 0 0 #FFFFFF;
+	float: left;
+	padding: 10px 0;
+	width: 1006px;
+}
+.column1 ul li{
+	float: left;
+}
+.column1 ul li span{
+	margin: 5px 15px;
+	display: block;
+}
+.column1 h3{
+	font-size: 25px;
+	color: #586068;
+	font-weight: bold;
+	font-weight: normal;
+}
+.column1 p{
+	width: 300px;
+	margin-right: 40px;
+	color: #959AA0;
+	font-size: 14px;
+}
+.column1 ul li span{
+	margin: 5px 15px;
+	display: block;
+}
+.column1 ul .btn{
+	border-left: 1px solid #EDEDED;
+	height: 65px;
+	margin-left: 20px;
+	padding: 28px 20px 5px;
+}
+.column1 ul .btn span a{
+	display: block;
+	background: #427EC4;
+	font-size: 16px;
+	padding: 5px 25px;
+	color: #fff;
+}
+/*------------------------------表格-------------------------*/
+.column2{
+	float: left;
+	margin-bottom: 30px;
+}
+.column2 table{
+	border: 1px solid #E1E4E9;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+tbody{
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+.column2 table tr{
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+.column2 table tr th{
+	border: 1px solid #E1E4E9;
+}
+.column2 th{
+	
+	color: #586068;
+	font-size: 13px;
+	font-weight: normal;
+	padding: 5px;
+	text-align: center;
+}
+.column2 th{
+	width: 135px;
+	padding: 15px 16px;
+}
+.tr{
+	
+	background-color: #FFBF50;
+}
+.tr th{
+	font-weight: bold;
+	font-size: 16px;
+}
+.tr1{
+	background: #4D8DD5;
+	 
+}
+.tr1 th{
+	color: #fff;
+}
+/*-------------------------中国美术学院简介----------------------*/
+.mb30{
+	margin-bottom: 30px;
+}
+.column3 span{
+	float: right;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+.column3 p{
+	width: 720px;
+	margin: 15px 0;
+	font-size: 14px;
+	color: #959AA0;
+	display: block;
+}
+.column4 h2{
+	padding-left: 10px;
+	font-size: 20px;
+	color: #485C74;
+	font-weight: 500;
+}
+/*------------------------------地址----------------------------*/
+.contacter{
+	margin-top: 34px;
+	border-top: 1px solid #EBEBEB;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+.contacter_box{
+	width: 410px;
+	height: 260px;
+	background: #DADDE1;
+	float: left;
+}
+.contact2{
+	overflow: hidden;
+}
+.blue1{
+	background-color: #485C74;
+	padding: 10px 35px 20px;
+}
+.blue1_p{
+	line-height: 30px;
+	font-size: 14px;
+	color: #ABB7C4;
+	font-weight: bold;
+	font-family: \5FAE\8F6F\96C5\9ED1;
+}
+.blue1 p{
+	color: #FFF;
+	font-size: 14px;
+}
+.blue2{
+	background-color: #53657A;
+	padding: 10px 35px 15px;	
+}
+.blue2 p{
+	color: #fff;
+	font-size: 14px;
+}
+/*----------------------------------底部---------------------------*/
+.footer{
+	padding-top: 10px;
+	background-color: #E4E4E4;
+	width: 100%;
+	clear: both; 
+}
+.foot{
+	width: 896px;
+	padding-left: 110px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 40px;
+}
+.tit{
+	color: #000;
+}
+.tit span{
+	font-weight: 700;
+}
+.foot .link{
+	margin-left: 20px;
+}
+.footer_menu{
+	color: #787878;
+	font-size: 12px;
+	margin: 0 auto;
+	padding-left: 10px;
+	text-align: center;
+	width: 450px;
+	padding-bottom: 20px;
+}
+.footer_menu a{
+	margin: 0 5px;
+	color: #787878;
+}
+/*---------------------------------侧边导航栏-----------------------*/
+.sea_box{
+	position: fixed;
+	left: 0px;
+	top: 220px;
+	width: 97px!important;
+}
+.sea_box1{
+	background: url(../images/21sea_refer_01.png)!important;
+	width: 95px;
+	height: 85px;
+	margin-bottom: 0;
+}
+.sea_box2{
+	background: url(../images/21sea_refer_02.png)!important;
+	width: 95px;
+	height: 34px;
+	margin-bottom: 0;
+}
+.sea_box3{
+	background: url(../images/21sea_refer_06.png)!important;
+	width: 95px;
+	height: 43px;
+	margin-bottom: 0;
+}
+#img1{
+	margin-top: -4px;
+}
+#img2{
+	margin-top: -4px;
+}
+#img3{
+	margin-top: -4px;
+}
+
+
+
+
+
+
+
